@@ -65,4 +65,140 @@
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
 imejis-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://imejis.io/
+
+**Areas:** Company
+
+## imejis-io on APIs.io
+
+Everything profiled for imejis-io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/imejis-io/](https://apis.io/providers/imejis-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [imejis-io Analytics API](https://apis.io/apis/imejis-io/imejis-io-analytics-api/) — Render usage.
+- [imejis-io Designs API](https://apis.io/apis/imejis-io/imejis-io-designs-api/) — Read and list designs.
+- [imejis-io Keys API](https://apis.io/apis/imejis-io/imejis-io-keys-api/) — Render API keys.
+- [imejis-io Render API](https://apis.io/apis/imejis-io/imejis-io-render-api/) — Turn a design into a finished image.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Imejis Io Agentic Access](https://apis.io/agentic-access/imejis-io/imejis-io-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [ApiKey](https://apis.io/schemas/imejis-io/imejis-io-api-key/)
+- [Design](https://apis.io/schemas/imejis-io/imejis-io-design/)
+- [PaginatedDesigns](https://apis.io/schemas/imejis-io/imejis-io-paginated-designs/)
+- [RenderConfig](https://apis.io/schemas/imejis-io/imejis-io-render-config/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Imejis Io Context](https://apis.io/jsonld/imejis-io/imejis-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [imejis-io API Rules](https://apis.io/rules/imejis-io/imejis-io-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Imejis Io Authentication](https://apis.io/security/imejis-io/imejis-io-authentication/)
+- [Imejis Io Domain Security](https://apis.io/security/imejis-io/imejis-io-domain-security/)
+- [Imejis Io Vulnerability Disclosure](https://apis.io/security/imejis-io/imejis-io-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Imejis Io Scopes](https://apis.io/scopes/imejis-io/imejis-io-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Imejis Io Plans Pricing](https://apis.io/plans/imejis-io/imejis-io-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Imejis Io Rate Limits](https://apis.io/rate-limits/imejis-io/imejis-io-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://imejis.io/)
+- [Pricing](https://www.imejis.io/pricing)
+- [Support](https://www.imejis.io/help)
+- [Security](https://www.imejis.io/security)
+- [Terms of service](https://www.imejis.io/terms-of-service)
+- [Privacy policy](https://www.imejis.io/privacy-policy)
+- [GitHub](https://github.com/imejis)
+
+## API Evangelist rating
+
+**Kin Score 53.7** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.3 |
+| Contract quality | 59.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 23.1 |
+| Access clarity | 60.0 |
+
+**Agent readiness 47.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/imejis-io/](https://apis.io/providers/imejis-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for imejis-io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/imejis-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
